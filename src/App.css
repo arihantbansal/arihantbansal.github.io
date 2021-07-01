@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	font-family: monospace;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.App {
+	text-align: center;
+}
+
+.App-header {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+#tsparticles {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+a {
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	font-style: normal;
+	text-transform: none;
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+
+h3 {
+	font-style: normal;
+	text-transform: none;
+	font-weight: 200;
+	line-height: 2rem;
+	font-size: 1.2em;
+}
+
+.box {
+	margin: 1em 2.5em;
+	display: inline-block;
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	color: white;
+}
+
+.dix {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 2em;
+	color: white;
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	display: inline-block;
+	border-radius: 20%;
+	border-width: 0.03em;
+	transition: 0.3s ease;
+}
+
+.box a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.dix:hover {
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	background-color: white;
+	color: black;
+	transition: 0.2s ease;
+}
