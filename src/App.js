@@ -11,48 +11,82 @@ import {
 	FaMediumM,
 	FaRegEnvelope,
 } from "react-icons/fa";
+import me from "./arihant.jpg";
 
 const App = () => {
 	return (
 		<div className="App">
-			<Particles options={particlesOptions} />
+			<Particles id="tsparticles" options={particlesOptions} />
 			<header className="App-header">
+				<img src={me} className="App-logo" alt="logo" />
 				<h1>Hello, I am Arihant!</h1>
+				{/* <Typical wrapper="h1" steps={["Hello, I am Arihant!", 2000]} /> */}
 				<h3>
-					I &#128153; {/*solving problems. */}
+					I &#128153;{" "}
 					<Typical
 						loop={Infinity}
+						wrapper="span"
 						steps={["solving problems", 1000, "making new things", 1000]}
 					/>
 				</h3>
 				<div className="icons">
 					<span className="box">
-						<a className="dix">
-							<FaFacebookF />
+						<a
+							className="dix"
+							href="https://www.github.com/arihantbansal"
+							target="_blank"
+							rel="noreferrer"
+							aria-hidden={true}>
+							<FaGithub className="icon" />
 						</a>
 					</span>
 					<span className="box">
-						<a className="dix">
+						<a
+							className="dix"
+							href="https://www.linkedin.com/in/arihantbansal/"
+							target="_blank"
+							rel="noreferrer"
+							aria-hidden={true}>
 							<FaLinkedin />
 						</a>
 					</span>
 					<span className="box">
-						<a className="dix">
-							<FaGithub />
+						<a
+							className="dix"
+							href="https://www.facebook.com/arihant.bansal"
+							target="_blank"
+							rel="noreferrer"
+							aria-hidden={true}>
+							<FaFacebookF />
 						</a>
 					</span>
 					<span className="box">
-						<a className="dix">
+						<a
+							className="dix"
+							href="https://www.quora.com/profile/Arihant-Bansal-11"
+							target="_blank"
+							rel="noreferrer"
+							aria-hidden={true}>
 							<FaQuora />
 						</a>
 					</span>
 					<span className="box">
-						<a className="dix">
+						<a
+							className="dix"
+							href="https://medium.com/@_arihantbansal"
+							target="_blank"
+							rel="noreferrer"
+							aria-hidden={true}>
 							<FaMediumM />
 						</a>
 					</span>
 					<span className="box">
-						<a className="dix">
+						<a
+							className="dix"
+							href="mailto:arihant.bansal@gmail.com"
+							target="_blank"
+							rel="noreferrer"
+							aria-hidden={true}>
 							<FaRegEnvelope />
 						</a>
 					</span>

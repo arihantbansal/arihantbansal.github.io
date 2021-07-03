@@ -52,7 +52,7 @@
 			"color": "#ffffff",
 			"distance": 150,
 			"enable": true,
-			"opacity": 0.5,
+			"opacity": 0.3,
 			"width": 1
 		},
 		"collisions": {
@@ -60,7 +60,7 @@
 		},
 		"move": {
 			"enable": true,
-			"speed": 6,
+			"speed": 2,
 			"direction": "none",
 			"random": false,
 			"straight": false,
