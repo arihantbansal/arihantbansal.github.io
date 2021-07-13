@@ -26,7 +26,7 @@ const App = () => {
 					<Typical
 						loop={Infinity}
 						wrapper="span"
-						steps={["solving problems", 1000, "making new things", 1000]}
+						steps={["solving problems", 1000, "building stuff", 1000]}
 					/>
 				</h3>
 				<div className="icons">
