@@ -108,5 +108,5 @@ export default App;
 
 //       Lookin' at the source code huh?
 //       Be sure to drop me a line! I'd love to chat,
-//       whether it's about code, design, math,
-//       coffee, sleeping, or anything in between.
+//       whether it's about code, math,
+//       history of rome, or anything in between.
