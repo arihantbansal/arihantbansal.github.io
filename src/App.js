@@ -4,7 +4,7 @@ import "./App.css";
 import particlesOptions from "./particles.json";
 import Typical from "react-typical";
 import { FaLinkedin, FaGithub, FaTwitter, FaRegEnvelope } from "react-icons/fa";
-import me from "./arihant.jpg";
+import me from "./assets/arihant.jpg";
 
 const App = () => {
 	return (
@@ -88,4 +88,4 @@ export default App;
 //       Lookin' at the source code huh?
 //       Be sure to drop me a line! I'd love to chat,
 //       whether it's about code, math,
-//       history of rome, or anything in between.
+//       mythology, or anything in between.
